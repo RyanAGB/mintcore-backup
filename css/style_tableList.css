@@ -1,0 +1,202 @@
+
+#content table.listview	{ width: 748px;	margin: 0 auto;	border-collapse: collapse; }
+#content table.listview	 tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#content table.listview	 tr.highlight_error	{ background: #f2f2f2 url(../images/bg_td_highlight_error.png) repeat-x left top; }
+#content table.listview	 tr.highlight_error	 td{ color:#FF0000;}
+#content table.listview	 th	{ height: 32px;	color: #6c6c6c;	font-size: 1.2em; text-align: left;padding-left:5px;  font-weight: bold; vertical-align: middle;border: 1px solid #ccc; border-left:0; background-color:#F9F9F9  }
+#content table.listview	 th.right	{ border-right:0;  }
+#content table.listview	 th	a, #content th	a:visited{ color: #6c6c6c; font-weight: bold; }
+#content table.listview	 th	a:hover{ color:#999999;	font-weight: bold; }
+#content table.listview	 th	label{ color:#999999;	font-weight: bold; color: #6c6c6c;	font-size: 1.1em;}
+#content table.listview	 th.col_20	{ width: 20px; }
+#content table.listview	 th.col_50	{ width: 50px; }
+#content table.listview	 th.col_70	{ width: 70px; }
+#content table.listview	 th.col_80	{ width: 80px; }
+#content table.listview	 th.col_100	{ width: 100px; }
+#content table.listview	 th.col_150	{ width: 150px; }
+#content table.listview	 th.col_200	{ width: 200px; }
+#content table.listview	 th.col_250	{ width: 250px; }
+#content table.listview	 th.col_300	{ width: 300px; }
+#content table.listview	 th.col_350	{ width: 350px; }
+#content table.listview	 td	{ height: 28px; color: #6c6c6c; font-size: 1.2em; padding-left:5px; vertical-align: middle; border: solid 1px #d5d5d5; 	border-left: 0; }
+#content table.listview	 td.action	{ border-right: 0; }
+#content table.listview	 td a, #content table.listview td a:visited { color: #566a97; }
+#content table.listview	 td a:hover	{ text-decoration: underline; }
+
+#content table.listview	 td.remarks	{ color:#FF0000; font-weight:bold }
+
+#content table.listview	 ul	{ width: 96px; margin: 0 auto; }
+#content table.listview  li	{ float: left; padding: 0 4px; }
+#content table.listview	 li a, #content table.listview li a:visited { float: left;	width: 16px; height: 16px; display: block; cursor: pointer; }
+
+#content table.listview_classic	{ width: 748px;	margin: 0 auto;	border-collapse: collapse; }
+#content table.listview_classic	 tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#content table.listview_classic	 th	{  border: solid 1px #d5d5d5; height: 35px;	color: #6c6c6c;	font-size: 1.2em; text-align: left;padding-left:5px;  font-weight: bold; vertical-align: middle; border-left: 0; background-color:#F3F3F3}
+#content table.listview_classic	 th	a, #content th	a:visited{ color: #6c6c6c; font-weight: bold; }
+#content table.listview_classic	 th	a:hover{ color:#999999;	font-weight: bold; }
+#content table.listview_classic	 th	label{ color:#999999;	font-weight: bold; color: #6c6c6c;	font-size: 1.1em;}
+#content table.listview_classic	 th.col_20	{ width: 20px; }
+#content table.listview_classic	 th.col_50	{ width: 50px; }
+#content table.listview_classic	 th.col_70	{ width: 70px; }
+#content table.listview_classic	 th.col_80	{ width: 80px; }
+#content table.listview_classic	 th.col_100	{ width: 100px; }
+#content table.listview_classic	 th.col_150	{ width: 150px; }
+#content table.listview_classic	 th.col_200	{ width: 200px; }
+#content table.listview_classic	 th.col_250	{ width: 250px; }
+#content table.listview_classic	 th.col_300	{ width: 300px; }
+#content table.listview_classic	 th.col_350	{ width: 350px; }
+#content table.listview_classic	 td	{ height: 28px; color: #6c6c6c; font-size: 1.2em; padding-left:5px; vertical-align: middle; border: solid 1px #d5d5d5; 	border-left: 0; }
+#content table.listview_classic	 td.action	{ border-right: 0; }
+#content table.listview_classic	 td a, #content table.listview_classic td a:visited { color: #566a97; }
+#content table.listview_classic	 td a:hover	{ text-decoration: underline; }
+#content table.listview_classic	 ul	{ width: 96px; margin: 0 auto; }
+#content table.listview_classic  li	{ float: left; padding: 0 4px; }
+#content table.listview_classic	 li a, #content table.listview_classic li a:visited { float: left;	width: 16px; height: 16px; display: block; cursor: pointer; }
+
+
+#content table.listview50	{ width: 300px;	margin: 0 auto;	border-collapse: collapse; }
+#content table.listview50	 tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#content table.listview50	 th	{ height: 42px;	color: #6c6c6c;	font-size: 1.2em; text-align: left;padding-left:5px;  font-weight: bold; vertical-align: middle; }
+#content table.listview50	 th	a, #content  table.listview50 th a:visited{ color: #6c6c6c; font-weight: bold; }
+#content table.listview50	 th	a:hover{ color:#999999;	font-weight: bold; }
+#content table.listview50	 th	label{ color:#999999;	font-weight: bold; color: #6c6c6c;	font-size: 1.1em;}
+#content table.listview50	 th.col_20	{ width: 20px; }
+#content table.listview50	 th.col_50	{ width: 50px; }
+#content table.listview50	 th.col_100	{ width: 100px; }
+#content table.listview50	 th.col_150	{ width: 150px; }
+#content table.listview50	 th.col_200	{ width: 200px; }
+#content table.listview50	 th.col_250	{ width: 250px; }
+#content table.listview50	 th.col_300	{ width: 300px; }
+#content table.listview50	 th.col_350	{ width: 350px; }
+#content table.listview50	 td	{ height: 28px; color: #6c6c6c; font-size: 1.2em; padding-left:5px; vertical-align: middle; border-left: 0; }
+#content table.listview50	 td.action	{ border-right: 0; }
+#content table.listview50	 td a, #content table.listview50 td a:visited { color: #566a97; }
+#content table.listview50	 td a:hover	{ text-decoration: underline; }
+#content table.listview50	 ul	{ width: 96px; margin: 0 auto; }
+#content table.listview50  li	{ float: left; padding: 0 4px; }
+#content table.listview50	 li a, #content table.listview50 li a:visited { float: left;	width: 16px; height: 16px; display: block; cursor: pointer; }
+
+#content .box	{ background: url(../images/bg_content_form.png) repeat-y left top; }
+#content a.profile, #content a.profile:visited	{ background: url(../images/led-ico/layout_select_content.png) no-repeat center center; }
+
+#printable a.viewer_print, #printable a.viewer_print:visited	{ background: url(../images/led-ico/printer.png) no-repeat center center; }
+#printable a.viewer_pdf, #printable a.viewer_pdf:visited	{ background: url(../images/led-ico/doc_pdf.png) no-repeat center center; }
+#printable a.viewer_email, #printable a.viewer_email:visited	{background: url(../images/led-ico/email.png) no-repeat center center; }
+#printable td a, #printable td a:visited { float: right; padding: 0 4px;	width: 16px; height: 16px; display: block; cursor: pointer; left:auto }
+
+#print_div a.viewer_print, #print_div a.viewer_print:visited	{ background: url(../images/led-ico/printer.png) no-repeat center center; }
+#print_div a.viewer_pdf, #print_div a.viewer_pdf:visited	{ background: url(../images/led-ico/doc_pdf.png) no-repeat center center; }
+#print_div a.viewer_email, #print_div a.viewer_email:visited	{background: url(../images/led-ico/email.png) no-repeat center center; }
+#print_div td a, #print_div td a:visited { float: right; padding: 0 4px;	width: 16px; height: 16px; display: block; cursor: pointer; left:auto }
+
+#content a.pay, #content a.pay:visited	{ background: url(../images/led-ico/coins.png) no-repeat center center; }
+#content a.refund, #content a.refund:visited	{ background: url(../images/led-ico/application_get.png) no-repeat center center; }
+#content a.drop, #content a.drop:visited	{ background: url(../images/led-ico/application_put.png) no-repeat center center; }
+#content a.check, #content a.check:visited	{ background: url(../images/led-ico/doc_convert.png) no-repeat center center; }
+#content a.applicant, #content a.applicant:visited	{ background: url(../images/led-ico/application2.png) no-repeat center center; }
+#content a.accept, #content a.accept:visited	{ background: url(../images/led-ico/accept.png) no-repeat center center; }
+#content a.decline, #content a.decline:visited	{ background: url(../images/led-ico/cancel.png) no-repeat center center; }
+#content a.availability, #content a.availability:visited	{ background: url(../images/led-ico/alarm.png) no-repeat center center; }
+#content a.schedule, #content a.schedule:visited	{ background: url(../images/led-ico/application.png) no-repeat center center; }
+#content a.curSub, #content a.curSub:visited	{ background: url(../images/led-ico/application_cascade.png) no-repeat center center; }
+#content a.period, #content a.period:visited	{ background: url(../images/led-ico/application_view_list.png) no-repeat center center; }
+#content a.add_period, #content a.add_period:visited	{ background: url(../images/application_double.png) no-repeat center center; }
+#content a.add, #content a.add:visited	{ background: url(../images/icon_add.png) no-repeat center center; }
+#content a.edit, #content a.edit:visited { background: url(../images/icon_edit.png) no-repeat center center; }
+#content a.delete, #content a.delete:visited { background: url(../images/icon_delete.png) no-repeat center center; }
+#content a.mark, #content a.mark:visited { background: url(../images/icon_mark2.png) no-repeat center center; }
+#content a.unpublished, #content a.unpublished:visited { background: url(../images/icon_positive2.png) no-repeat center center; }
+#content a.publish, #content a.publish:visited { background: url(../images/icon_positive.png) no-repeat center center; }
+
+#content a.checkmark, #content a.checkmark:visited { background: url(../images/icon_positive.png) no-repeat center center; }
+#content a.xmark, #content a.xmark:visited { background: url(../images/icon_negative.png) no-repeat center center; }
+
+#content a.unlocked, #content a.unlocked:visited { background: url(../images/led-ico/lock_unlock.png) no-repeat center center; }
+#content a.lock, #content a.lock:visited { background: url(../images/led-ico/lock.png) no-repeat center center; }
+
+p#pagin	{ color: #566a97; height:20px; padding: 20px 0 0 0; font-size: 12px; text-align: center; background: url(../images/bg_content_fieldset.png) no-repeat left bottom; }
+p#pagin a, p#pagin a:visited { color: #566a97; }
+p#pagin a:hover	{ text-decoration: underline; }
+
+/* CUSTOM TABLE */
+
+#content table.fieldsetList	{ width:300px; border-collapse: collapse; }
+#content table.fieldsetList	 tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#content table.fieldsetList	 th	{ color: #6c6c6c;	font-size: 1.2em; text-align: left;padding:5px 5px 5px 5px;   font-weight: bold; vertical-align: middle; }
+#content table.fieldsetList	 th	a, #content th	a:visited{ color: #6c6c6c; font-weight: bold; }
+#content table.fieldsetList	 th	a:hover{ color:#999999;	font-weight: bold; }
+#content table.fieldsetList	 th.col_20	{ width: 20px; }
+#content table.fieldsetList	 th.col_50	{ width: 50px; }
+#content table.fieldsetList	 th.col_100	{ width: 100px; }
+#content table.fieldsetList	 th.col_150	{ width: 150px; }
+#content table.fieldsetList	 th.col_200	{ width: 200px; }
+#content table.fieldsetList	 th.col_250	{ width: 250px; }
+#content table.fieldsetList	 th.col_300	{ width: 300px; }
+#content table.fieldsetList	 th.col_350	{ width: 350px; }
+#content table.fieldsetList	 td	{ color: #6c6c6c; font-size: 1.2em; padding:5px 5px 5px 5px; vertical-align: middle; border: solid 1px #d5d5d5; }
+#content table.fieldsetList	 td.action	{ border-right: 0; }
+#content table.fieldsetList	 td a, #content table.fieldsetList td a:visited { color: #566a97; }
+#content table.fieldsetList	 td a:hover	{ text-decoration: underline; }
+#content table.fieldsetList	 ul	{ width: 96px; margin: 0 auto; }
+#content table.fieldsetList  li	{ float: left; padding: 0 4px; }
+#content table.fieldsetList	 li a, #content table.fieldsetList li a:visited { float: left;	width: 16px; height: 16px; display: block; cursor: pointer; }
+
+/* FOR PAYMENT TABLE  */
+
+#content table.paymentlistview	{ width: 745px;	margin: 0 auto;	border-collapse: collapse; }
+#content table.paymentlistview	 tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#content table.paymentlistview	 th	{ height: 30px;	color: #6c6c6c;	font-size: 1.2em; text-align: left;padding-left:5px;  font-weight: bold; vertical-align: middle; border: solid 1px #d5d5d5; }
+#content table.paymentlistview	 th	a, #content th	a:visited{ color: #6c6c6c; font-weight: bold; }
+#content table.paymentlistview	 th	a:hover{ color:#999999;	font-weight: bold; }
+#content table.paymentlistview	 th	label{ color:#999999;	font-weight: bold; color: #6c6c6c;	font-size: 1.1em;}
+#content table.paymentlistview	 th.col_20	{ width: 20px; }
+#content table.paymentlistview	 th.col_50	{ width: 50px; }
+#content table.paymentlistview	 th.col_70	{ width: 70px; }
+#content table.paymentlistview	 th.col_100	{ width: 100px; }
+#content table.paymentlistview	 th.col_150	{ width: 150px; }
+#content table.paymentlistview	 th.col_200	{ width: 200px; }
+#content table.paymentlistview	 th.col_250	{ width: 250px; }
+#content table.paymentlistview	 th.col_300	{ width: 300px; }
+#content table.paymentlistview	 th.col_350	{ width: 350px; }
+#content table.paymentlistview	 td	{ height: 25px; color: #6c6c6c; font-size: 1.2em; padding-left:5px; vertical-align: middle; border: solid 1px #d5d5d5; 	border-left: solid 1px #d5d5d5; }
+#content table.paymentlistview	 td.action	{ border-right: 0; }
+#content table.paymentlistview	 td a, #content table.paymentlistview td a:visited { color: #566a97; }
+#content table.paymentlistview	 td a:hover	{ text-decoration: underline; }
+#content table.paymentlistview	 ul	{ width: 96px; margin: 0 auto; }
+#content table.paymentlistview  li	{ float: left; padding: 0 4px; }
+#content table.paymentlistview	 li a, #content table.paymentlistview li a:visited { float: left;	width: 16px; height: 16px; display: block; cursor: pointer; }
+
+/* FOR PAYMENT Half TABLE  */
+
+#content table.paymentlisthalf	{ width:300px; border-collapse: collapse; }
+#content table.paymentlisthalf	 tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#content table.paymentlisthalf	 th	{ color: #6c6c6c;	font-size: 1.2em; text-align: left;padding:5px 5px 5px 5px;   font-weight: bold; vertical-align: middle; border: solid 1px #d5d5d5; }
+#content table.paymentlisthalf	 th	a, #content th	a:visited{ color: #6c6c6c; font-weight: bold; }
+#content table.paymentlisthalf	 th	a:hover{ color:#999999;	font-weight: bold; }
+#content table.paymentlisthalf	 th.col_20	{ width: 20px; }
+#content table.paymentlisthalf	 th.col_50	{ width: 50px; }
+#content table.paymentlisthalf	 th.col_100	{ width: 100px; }
+#content table.paymentlisthalf	 th.col_150	{ width: 150px; }
+#content table.paymentlisthalf	 th.col_200	{ width: 200px; }
+#content table.paymentlisthalf	 th.col_250	{ width: 250px; }
+#content table.paymentlisthalf	 th.col_300	{ width: 300px; }
+#content table.paymentlisthalf	 th.col_350	{ width: 350px; }
+#content table.paymentlisthalf	 td	{ color: #6c6c6c; font-size: 1.2em; padding:5px 5px 5px 5px; vertical-align: middle; border: solid 1px #d5d5d5; }
+#content table.paymentlisthalf	 td.right	{ text-align:right }
+#content table.paymentlisthalf	 td.action	{ border-right: 0; }
+#content table.paymentlisthalf	 td a, #content table.paymentlisthalf td a:visited { color: #566a97; }
+#content table.paymentlisthalf	 td a:hover	{ text-decoration: underline; }
+#content table.paymentlisthalf	 ul	{ width: 96px; margin: 0 auto; }
+#content table.paymentlisthalf  li	{ float: left; padding: 0 4px; }
+#content table.paymentlisthalf	 li a, #content table.paymentlisthalf li a:visited { float: left;	width: 16px; height: 16px; display: block; cursor: pointer; }
+
+#printable  table.head	{ font-size:12px;}
+
+#printable  table.head td.title-head	{ font-size:15px; font-weight:bold; padding-top:20px; }
+<!--#printable  table div.title-head	{ font-size:12px;}!-->
+#printable  table.head td.date	{ padding-top:20px; text-align:right}
+<!--#printable  table td.title-action	{ border-top:1px solid #333; text-align:right}!-->
+#printable  table.head td.title-border	{ border-bottom:1px solid #333;  font-size:13px;  font-weight:bold;}
+#printable  table.head td.bold	{ font-weight:bold}
+#printable  div.header	{ padding:10px;}
+

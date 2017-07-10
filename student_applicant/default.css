@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin:0;
+padding:0;
+}
+
+/*mint header and text*/
+
+.headerContainer {
+width:100%;
+height:91px;
+background:#78bf42;
+}
+
+.header {
+margin:0 auto;
+width:975px;
+}
+
+.title {
+margin:0 auto;
+margin-top:10px;
+width:975px;
+}
+
+.title h4{
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#78bf42;
+margin-top:0px;
+}
+
+.title small {
+font-size:12px;
+color:#333333;
+}
+
+
+/*min table*/
+
+.table { /*class of the table container*/
+margin:0 auto;
+width:975px;
+}
+
+.head {
+font-size:14px;
+color:#FFFFFF;
+background-color:#78bf42;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.image {
+width:138px;
+height:123px;
+/*background:#CCCCCC;*/
+margin-left:10px;
+margin-right:10px;
+background-image:url(upload_green.jpg);
+background-repeat:no-repeat;
+}
+
+.imageUploader {
+text-align:top;
+float:left;
+
+}
+
+.tableProperties { /* class on the table itself*/
+width:950px;
+float:left;
+border:medium #0066FF;
+}
+
+.tableProperties td {
+padding:10px;
+border:medium #996633;
+}
+
+/*table Properties input select checkbox etc..*/
+
+.tableProperties label {
+font-size:13px;
+margin:5px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color: #333333;
+float:left;
+}
+
+.tableProperties label.dust {
+font-size:13px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+color: #333333;
+float:left;
+width:10px; /*just delete width if you need a flexi label*/
+}
+
+.tableProperties input {
+border:1px solid #CCCCCC;
+padding:5px;
+background: #F2F2F2;
+float:left;
+}
+
+.tableProperties input:focus{
+background: #F9F9F9;
+
+}
+
+
+.tableProperties select {
+padding:2px;
+border:1px solid #CCCCCC;
+margin-right:2px;
+}
+
+.tableProperties textarea {
+border:1px solid #CCCCCC;
+padding:5px;
+background: #F2F2F2;
+float:left;
+}
+
+.tableProperties textarea:focus{
+background: #F9F9F9;
+
+}
+
+.tableProperties select {
+float:left;
+}
+
+
+/*button*/
+
+.apple-green {
+	color: #fff;
+	border: solid 1px #779b50;
+	background: #87a526;
+	background: -webkit-gradient(linear, left top, left bottom, from(#87a526), to(#a6c63b));
+	background: -moz-linear-gradient(top,  #87a526,  #a6c63b);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#87a526', endColorstr='#a6c63b');
+}
+.apple-green:hover {
+	background: #b7753c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#87a526), to(#bcdb4e));
+	background: -moz-linear-gradient(top,  #87a526,  #bcdb4e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#87a526', endColorstr='#bcdb4e');
+}
+.apple-green:active {
+	color: #b7753c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a9c940), to(#87a526));
+	background: -moz-linear-gradient(top,  #a9c940,  #87a526);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9c940', endColorstr='#87a526');
+}
+
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 16px/100% "Titillium600" , Arial, Verdana, "Myriad Pro";
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+	box-shadow:1px 1px 5px rgba(0,0,0,.2);
+	font-weight:bold;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+color:#FFFFFF;
+	position: relative;
+	top: 1px;
+}
+
+.buttoncontainer{
+padding:5px 0px 5px 50px;
+}
+
+.last{
+padding:20px 0px 0px 0px;
+}
+
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	
+	
+}
+
+
+.bigger-rounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+	padding:10px;
+	
+	
+}
+
+
+.medium {
+	font-size: 14px;
+	padding: .5em 2em .50em;
+}
+.small {
+	font-size: 13px;
+	padding: .3em 2em .275em;
+}
+
+/*ignore consist of width may affect the properties of your layout*/
+
+
+.tableProperties input.mid {
+width:210px;
+}
+
+
+.tableProperties input.long {
+width:416px;
+}
+
+.tableProperties input.xlong {
+width:816px;
+}
+
+.tableProperties input.short {
+width:150px;
+}
+
+.tableProperties input.superbshort {
+width:90px;
+}
+
+
+.tableProperties table {
+text-align:left;
+font-size:13px;
+font-weight:normal;
+font-family:Arial, Helvetica, sans-serif;
+color: #666666;
+
+}
+
+.tableProperties table tr td{
+/*border:1px solid #666666;*/
+padding:10px;
+border:none;
+}
+
+.tableProperties table label{
+float:left;
+
+
+}
+
+
+.tableProperties table input{
+float:left;
+}
+
+div.error  {
+
+	padding: 5px 20px 5px 20px;
+	margin:0px 0px 5px 0px;
+}
+
+.tableProperties label.error{
+	
+	/*padding: 5px 25px 5px 20px;
+	background: url(icon_alert.png) no-repeat left;
+	margin:5px 0;
+	font-size:12px;
+	color:#FF0000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-weight:bold;10016727710694
+	text-decoration:none;*/
+	visibility:hidden;
+	display:none;
+}
+
+.tableProperties input.error { border-color: #d35757;}
+select.error {border-color: #d35757;}
+.tableProperties checkbox.error {border-color: #d35757;}
+
+.alert	{
+	height: 28px;
+	text-align: right;
+	margin-bottom: 20px;
+	padding: 10px 15px 0 20px;
+	/*background: #d7d7d7 url(bg_alert.png) no-repeat left top;*/
+	font-style:italic;
+	color:#FF0000;
+	border-color:#00CC00;
+}
+.alert span.txt	{
+	float: left;
+	height: 21px;
+	display: block;
+	font-size: 1.2em;
+	padding: 2px 0 0 50px;
+}
+.alert span.icon	{
+	float: left;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: -2px 17px 0 -33px;
+	background: url(icon_alert.png) no-repeat left top;
+}
+
+.alert2	{
+	height: 28px;
+	text-align: right;
+	margin-bottom: 20px;
+	padding: 10px 15px 0 0px;
+	/*background: #d7d7d7 url(bg_alert.png) no-repeat left top;*/
+	font-style:italic;
+	color:#000000;
+	border-color:#00CC00;
+}
+.alert2 span.txt2	{
+	float: left;
+	height: 21px;
+	display: block;
+	font-size: 1.0em;
+	padding: 2px 0 0 50px;
+}
+.alert2 span.icon2	{
+	float: left;
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: -2px 17px 0 -40px;
+	background: url(icon_tip.png) no-repeat left top;
+}
+
+.tableProperties td.center{
+	font-size:13px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 10px 50px 0px 400px;
+	}
+	
+.tableProperties.chk{
+	padding: 10px 50px 0px 30px;
+	}
+
+.tableProperties table.tblWBord{
+	border:medium #00CC66;
+	}

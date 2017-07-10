@@ -1,0 +1,132 @@
+body {
+
+	width: 950px;
+	margin: 30px auto;
+	font: normal normal 62.5%/1 'Lucida Grande', Arial, Helvetica, sans-serif;
+	color:#333333;
+	font-size:12px;
+}
+
+#printable  table	{ font-size:12px;}
+
+#printable  table td.title-head	{ font-size:15px; font-weight:bold; padding-top:20px; }
+<!--#printable  table div.title-head	{ font-size:12px;}!-->
+#printable  table td.date	{ padding-top:20px; text-align:right}
+<!--#printable  table td.title-action	{ border-top:1px solid #333; text-align:right}!-->
+#printable  table td.title-border	{ border-bottom:1px solid #333;  font-size:13px;  font-weight:bold;}
+#printable  table td.bold	{ font-weight:bold}
+
+
+#printable div.body-container {
+margin:0 auto; 
+width:950px; 
+background: #FFFFFF;
+}
+
+#printable div.header {
+margin:0 auto; 
+height:50px;
+
+}
+#printable div.header_big {
+margin:0 auto; 
+height:250px;
+
+}
+
+
+#printable div.logo {
+padding:10px;width:200px; 
+text-align:center;
+font-weight:bold; 
+font-size:20px;
+float:left;
+}
+
+#printable table div.header-texts {
+padding-top:50px;
+width:300px; 
+text-align:left;
+font-weight:bold; 
+font-size:12px; 
+float:left;
+}
+
+#printable table div.date {
+padding-top:50px;
+width:200px; 
+text-align:right;
+font-weight:bold; 
+font-size:12px; 
+float:right;
+}
+
+#printable div.content-container {
+
+width:950px;
+margin:0 auto:
+}
+
+#printable div.content-wrapper-withBorder {
+border-top: 1px #000000 solid;
+padding-top: 10px;
+margin-top:50px;
+float:left;
+width:950px;
+
+}
+#printable div.content-wrapper-withoutBorder {
+padding-top: 10px;
+margin-top:50px;
+float:left;
+width:950px;
+
+}
+#printable div.content-wrapper-wholeBorder {
+border: 1px #CCCCCC solid;
+margin-top:50px;
+float:left;
+width:950px;
+
+}
+#printable div.btn_container {
+	display:none;	
+}
+#printable #table_payment {
+	display:none;	
+}
+
+#printable table.listview{ width:580px; border-collapse:collapse; font-size:12px;}
+#printable  table.listview th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+#printable  table.listview tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#printable  table.listview td{ border: 1px solid #ccc; padding:5px;}
+#printable  table.listview td.remarks	{ color:#FF0000; font-weight:bold }
+
+#classic{ width:580px; border-collapse:collapse; font-size:12px;}
+#classic th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+#classic tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#classic td{ border: 1px solid #ccc; padding:5px;}
+#classic td.remarks	{ color:#FF0000; font-weight:bold }
+
+#printable table.classic{ width:580px; border-collapse:collapse; font-size:12px;}
+#printable  table.classic th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+#printable  table.classic tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#printable  table.classic td{ border: 1px solid #ccc; padding:5px;}
+#printable  table.classic td.remarks	{ color:#FF0000; font-weight:bold }
+
+#printable table.fieldsetList{ width:580px; border-collapse:collapse; font-size:12px;}
+#printable  table.fieldsetList th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+#printable  table.fieldsetList tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#printable  table.fieldsetList td{ border: 1px solid #ccc; padding:5px;}
+#printable  table.fieldsetList td.remarks	{ color:#FF0000; font-weight:bold }
+
+#printable table.classic_withoutWidth{ width:580px; border-collapse:collapse; font-size:12px;}
+#printable  table.classic_withoutWidth th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+#printable  table.classic_withoutWidth tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#printable  table.classic_withoutWidth td{ border: 1px solid #ccc; padding:5px;}
+#printable  table.classic_withoutWidth td.remarks	{ color:#FF0000; font-weight:bold }
+
+#printable table.classic_borderless{ width:400px; border-collapse:collapse; font-size:12px; padding:20px;}
+#printable  table.classic_borderless th{ padding:5px; font-weight:bold;}
+#printable  table.classic_borderless tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+#printable  table.classic_borderless td.remarks	{ color:#FF0000; font-weight:bold }

@@ -1,0 +1,106 @@
+/* forms */
+
+label.check,
+label.radio {margin-right: 5px;}
+form small {color: #999;}
+input.txt,textarea { font-size:12px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; width: 320px; height:120px;}
+
+select.txt { font-size:12px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.error {font-size:12px;border-color: #d35757; background-image: url("img/txt-error.gif");}
+
+select.txt_45 {	font-size:12px; width:43px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_60 {	font-size:12px; width:60px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_85 {	font-size:12px; width:88px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+
+input.txt_50 { font-size:12px; width:50px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;	border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_50 {	font-size:12px; width:50px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_70 { font-size:12px; width:70px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;	border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_70 {	font-size:12px; width:70px;	border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_100 {	font-size:12px; width:100px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_100 { font-size:12px; width:100px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_150 {	font-size:12px; width:150px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_150 { font-size:12px; width:150px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_200{ font-size:12px; width:200px;	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_200 { font-size:12px; width:200px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_250 {	font-size:12px; width:250px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_250 { font-size:12px; width:250px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_300 {	font-size:12px; width:300px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_300 { font-size:12px; width:300px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+input.txt_350 {	font-size:12px; width:350px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+select.txt_350 { font-size:12px; width:350px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; background: url("../images/txt.gif") repeat-x; padding: 5px 2px; }
+
+
+form.basic input.txt,
+form.basic textarea {width: 100%;}
+
+input.error,
+textarea.error {border-color: #d35757; background-image: url("../images/txt-error.gif");}
+span.loading {background: url("../images/upload.gif") 0 50% no-repeat; padding: 3px 0 3px 20px;}
+
+form.fields div.filter{ padding:10px 10px 10px 10px; font-size:12px; }
+
+
+form.fields fieldset {border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;border: 1px solid #ccc; margin-bottom: 15px; padding: 10px 15px 15px 15px; width:330px; float:left; margin: 0 0 0 7px;}
+form.fields fieldset.big {border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;border: 1px solid #ccc; margin-bottom: 15px; padding: 10px 15px 15px 10px; width:680px; float:left; margin: 0 0 0 7px;}
+form.fields div .fieldsetContainer502 { float:left; margin: 0 0 0 15px;}
+form.fields fieldset.last {margin-bottom: 0; border-right: 1px solid #ccc !important;}
+form.fields fieldset legend {padding: 0 10px; font-size: 110%;}
+form.fields label,
+form.fields div.sep {display: block; margin-top: 6px;}
+form.fields label.check,
+form.fields label.radio {display: inline; margin-top: 0;}
+form.fields span.loading {margin-left: 10px;}
+form.fields span.txt { font-size: 1.3em;}
+form.fields #box_container .formview{padding:15px 0;}
+form.fields #box_container .formview .button_container{padding:15px 0 0 7px;}
+form.fields #prereq_container{padding:0 0 0 7px;}
+form .btn_container{ padding:10px 10px 10px 10px; }
+
+form.col50 div .fieldsetContainer50 { width:360px; float:left; margin: 0 0 0 8px;}
+form.col50 div .fieldsetContainer502 { float:left; margin: 0 0 0 30px;}
+form.col50 fieldset {border-radius: 5px; -webkit-border-radius: float:left; 5px; -moz-border-radius: 5px;border: 1px solid #ccc; padding: 10px 15px 15px 15px; width:330px;}
+form.col50 fieldset {border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;border: 1px solid #ccc; margin-bottom: 15px; padding: 10px 15px 15px 15px; width:330px;}
+
+form.col50 .fieldset_big {border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;border: 1px solid #ccc; margin-bottom: 15px; padding: 10px 15px 15px 15px; width:620px;}
+
+form.col50 fieldset legend {padding: 0 10px; font-size: 110%;}
+form.col50 label,
+form.col50 div.sep {display: block; margin-top: 6px;}
+form.col50 #box_container .formview{padding:15px 0;}
+form.col50 #box_container .formview .button_container{padding:15px 0 0 7px;}
+
+form.col50 .fieldsetContainer50 table.classic{ width:360px; border-collapse:collapse; font-size:12px;}
+form.col50 .fieldsetContainer50 table.classic th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+form.col50 .fieldsetContainer50 table.classic tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+form.col50 .fieldsetContainer50 table.classic td{ border: 1px solid #ccc; padding:5px;}
+
+
+form.col50 .fieldsetContainer100 table.classic{ width:720px; border-collapse:collapse; font-size:12px; margin-left:15px;}
+form.col50 .fieldsetContainer100 table.classic th{ border: 1px solid #ccc; padding:5px; font-weight:bold;}
+form.col50 .fieldsetContainer100 table.classic tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+form.col50 .fieldsetContainer100 table.classic td{ border: 1px solid #ccc; padding:5px;}
+
+form.col50 .fieldsetContainer50 table.classic_borderless{ width:360px; border-collapse:collapse; font-size:12px;}
+form.col50 .fieldsetContainer50 table.classic_borderless th{ border: 0; padding:5px; font-weight:bold;}
+form.col50 .fieldsetContainer50 table.classic_borderless tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+form.col50 .fieldsetContainer50 table.classic_borderless td{ border: 0px; padding:5px;}
+
+form.col50 .fieldsetContainer50 table.classic_borderless td.bottom{ border-bottom:1px solid #ccc;}
+
+form.col50 .headerForm { padding: 20px 0 20px 10px;}
+form.col50 .headerForm table.classic_borderless{border-collapse:collapse; font-size:12px;}
+form.col50 .headerForm table.classic_borderless th{ border: 0; padding:5px; font-weight:bold;}
+form.col50 .headerForm table.classic_borderless tr.highlight	{ background: #f2f2f2 url(../images/bg_td_highlight.png) repeat-x left top; }
+form.col50 .headerForm table.classic_borderless td{ border: 0px; padding:2px;}
+
+form.col50 .headerForm table.classic_borderless td.bottom{ border-bottom:1px solid #ccc;}
+
+form.col50 div.filter{ padding:10px 10px 10px 10px; font-size:12px; }

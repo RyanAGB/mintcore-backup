@@ -1,0 +1,166 @@
+<?php
+include_once("../config.php");
+include_once("../includes/functions.php");
+include_once("../includes/common.php");
+
+if(!in_array($_REQUEST['comp'],$_SESSION[CORE_U_CODE]['access_components'])||!isset($_REQUEST['comp'])){
+	header('Location: ../forbid.html');
+}else{
+	$id  = $_REQUEST['id'];
+	$max = $_REQUEST['unit'];
+	$enrol = array();
+	$eunt = 0;
+
+	$sql = "SELECT * FROM tbl_student_schedule 
+			WHERE enrollment_status <> 'D' AND student_id=".$id." AND term_id=".CURRENT_TERM_ID;
+	$query = mysql_query($sql);
+	
+	while($row = mysql_fetch_array($query)){
+		$enrol[]=$row['subject_id'];
+		$eunit+=$row['units'];
+	}
+
+	/*$sql = "SELECT sched.id, sched.section_no, sched.subject_id, sched.room_id, sched.term_id,sched.employee_id,
+			sched.monday, sched.tuesday, sched.wednesday, sched.thursday, 
+			sched.friday, sched.saturday, sched.sunday, sched.time_from, sched.time_to,
+			sub.subject_code, sub.subject_name,
+			rum.room_no, sched.number_of_student,
+			sched.number_of_available 
+			FROM tbl_schedule sched
+			LEFT JOIN tbl_subject sub
+			ON sub.id = sched.subject_id
+			LEFT JOIN tbl_room rum
+			ON sched.room_id = rum.id
+			WHERE sched.term_id = ".CURRENT_TERM_ID." AND sched.subject_id = " . $id;*/
+		
+	$arr_subject = getStudentSubjectForEnrollmentInArr($id);
+	//$result = mysql_query($sql);
+?>
+<script type="text/javascript">
+$(function(){
+	$('.selector').click(function(){
+		var ObjId = $(this).attr("returnId");
+		var stud = $(this).attr("returnObjId");
+		var subj = $(this).attr("returnSubjId");
+							
+		$.ajax({
+			type: "POST",
+			data: "selected=" + ObjId +'&id='+stud,
+			url: "ajax_components/ajax_validate_add_schedule.php",
+			success: function(msg){
+				if (msg == 'false'){
+					//alert(msg);
+					if(confirm('Are you sure you want to add this subject? This will be considered enrolled.')){
+						$.ajax({
+							type: "POST",
+							data: "mod=compute&id=" + ObjId,
+							url: "ajax_components/ajax_com_slot_updater.php",
+							success: function(msg){
+								if (msg != ''){
+									$('#action').val('add_subject');
+									$('#add_sub').val(ObjId);
+									$("form").submit();
+									$('#dialog_sub').dialog('close');
+								}
+							}
+						});
+					}else{
+						return false;
+					}
+				}else{
+					alert('This time slot conflicts with your existing schedule.');
+					return false;
+				}
+			} // success function
+		});	 // success				
+	});
+});
+	
+$(document).ready(function(){ 
+	$.each($("input[name*=schedred]"), function(index, value){ 
+		var obId = $(this).val();
+		$.ajax({
+			type: "POST",
+			data: "selected=" + obId +'&id='+<?=$id?>,
+			url: "ajax_components/ajax_validate_add_schedule.php",
+			success: function(msg){
+				if (msg == 'true'){
+					//alert(msg);
+					$('#tr_'+obId).attr('class','highlight_error');
+				}
+			} // success function
+		});	 // success				
+	});
+});
+	
+</script>
+
+<div id="lookup_content">
+	<table class="fieldsetList" style="width:800px;">      
+		<tr>
+			<th class="col1_70">&nbsp;</th>
+			<th class="col1_50"><a href="#">Section</a></th>
+			<th class="col1_50"><a href="#">Code</a></th>  
+			<th class="col1_150"><a href="#">Subject Name</a></th> 
+			<th class="col1_150"><a href="#">Professor</a></th>                           
+			<th class="col1_50"><a href="#">Day</a></th>                 
+			<th class="col1_100"><a href="#">Room</a></th> 
+			<th class="col1_50"><a href="#">Slot</a></th> 
+		</tr>
+
+<?php
+	$x = 1;
+    //while($row = mysql_fetch_array($result)) 
+    //{ 
+	foreach($arr_subject as $subject_id){
+		if(!in_array($subject_id,$enrol)){
+			$sql = "SELECT sched.id, sched.section_no, sched.subject_id, sched.room_id, sched.term_id,sched.employee_id,
+						sched.monday, sched.tuesday, sched.wednesday, sched.thursday, 
+						sched.friday, sched.saturday, sched.sunday,
+						sub.subject_code, sub.subject_name,
+						rum.room_no, sched.number_of_student,
+						sched.number_of_available 
+					FROM tbl_schedule sched
+					LEFT JOIN tbl_subject sub
+					ON sub.id = sched.subject_id
+					LEFT JOIN tbl_room rum
+					ON sched.room_id = rum.id
+					WHERE sched.term_id = ".CURRENT_TERM_ID." AND sched.subject_id = " . $subject_id;
+			$result = mysql_query($sql);
+			while($row = mysql_fetch_array($result)){ 
+				$un = getSubjUnit($row["subject_id"]);
+				?>
+		<tr id="tr_<?=$row['id']?>" class="<?=($x%2==0)?"":"highlight";?>">
+			<td>
+				<?php
+				if($row["number_of_available"]>0){
+				?>
+				<a href="#" name="id" id="id_<?=$row['id']?>" class="selector" returnObjId="<?=$id?>"  returnId="<?=$row['id']?>" returnSubjId="<?=$row['subject_id']?>">Select</a>
+				<?php
+				}else{ 
+					echo '&nbsp;&nbsp;&nbsp;';
+				}
+				?>
+			</td>
+			<td><?="(".$row["id"].")".$row["section_no"]?></td>
+			<td><?="(".$row["subject_id"].")".$row["subject_code"]?></td>
+			<td><?=$row["subject_name"]?></td>
+			<td><?=getProfessorFullName($row["employee_id"])?></td>
+			<td><?=getScheduleDays($row['id'])?></td>
+			<td><?=$row["room_no"]?></td>
+			<td><?=$row["number_of_available"].'/'.$row["number_of_student"]?><input type="hidden" name="totalun<?=$row['id']?>" id="totalun<?=$row['id']?>" value="<?=$un?>" /></td>
+		</tr>
+
+		<input type="hidden" name="schedred[]" id="schedred_<?=$row['id']?>" value="<?=$row['id']?>">
+				<?php 
+				$x++;          
+			}
+		}
+	}
+	?>
+	</table> 
+</div> <!-- #lookup_content -->    
+
+<?php
+}
+?>   
